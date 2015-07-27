@@ -71,3 +71,17 @@ Tips:
     ```
  - *Only use where necessary. Has little impact on short loops*
 
+##Selector Performance
+- Sizzle is the selector engine - right to left selector - starts at the right
+- Shorter selectors are usually better - reduce the amount of work engine has to do
+- If finding embedded element, finding a single element first then finding others is best
+    - `$('#selector-id').find('child-class');`
+
+##DOM Manipulation
+- DOM writing is expensive
+- Perform all necessary operations and then append to DOM once, once all things ready to go
+- Wrap all items, if possible, in one containing element.
+    - instead of appending one var which has loads of elements, wrap that var in an element
+    - `$('selector').append('<div> + var + </div>');`
+
+
