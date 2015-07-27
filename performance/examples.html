@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+    <!-- <h1>Plugins Example:</h1>
+    <div id="div1">Some content to test emphasis and deemphasis</div>
+    <input type="button" id="emphasize" value="Emphasize" />
+    <input type="button" id="deemphasize" value="Deemphasize" /> -->
+
+    <h1>Plugins Single Value Example:</h1>
+    <div >10</div>
+    <div >1</div>
+    <div >2</div>
+    <div >3</div>
+    <div >4</div>
+    <div >5</div>
+    <div >6</div>
+    <div >7</div>
+
+    <h1>Sate Example:</h1>
+    <p id="p1">plugin state content </p>
+    <p id="p2">should be shared by both of these p's</p>
+    <input type="button" id="plugs" value="Increase emphasis plugin wide" />
+    <input type="button" id="plugs2" value="Increase emphasis plugin wide 2" />
+    <br/>
+    <br/>
+
+    <span id="sp1">span content, related to individual nodes, should</span>
+    <input type="button" id="nodes" value="Increase emphasis on this node" /><br/>
+    <span id="sp2">be independent and have their own state</span>
+    <input type="button" id="nodes2" value="Increase emphasis state on node 2" /><br />
+
+
+
+    <script src="../jquery.min.js"></script>
+    <script src="./emphasize.js"></script>
+    <script src="./single.js"></script>
+    <script src="./state.js"></script>
+
+</body>
+</html>
