@@ -4,7 +4,7 @@
 
 IFFY - Immediately-Invoked Function Expression/ Self_Executing anonymous function
 
-''' javascript
+``` javascript
 // By wrapping a function in parens we have created a function expression
 // By following them with another set of parens we are invoking that function expression
 // Because of closures all code within ths will be in a different scope to other code
@@ -13,4 +13,4 @@ IFFY - Immediately-Invoked Function Expression/ Self_Executing anonymous functio
         return this;
     }
 })(jQuery);
-'''
+```
