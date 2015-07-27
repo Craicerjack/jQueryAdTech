@@ -1,10 +1,10 @@
 #Tools:
 1. profiler
     - profiler button
-    - profile() and profileEnd()
-    - console.profile() and console.profileEnd()
+    - `profile()` and `profileEnd()`
+    - `console.profile()` and `console.profileEnd()`
 2. Manual Timing.
-    - console.time("stringHere") and console.timeEnd("stringHere")
+    - `console.time("stringHere")` and `console.timeEnd("stringHere")`
 
 #Performance Problem Identification Strategy
 1. Profile all usage
