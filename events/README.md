@@ -1,10 +1,11 @@
 #Events
 
 ###On()
-`$(selector).on('eventName otherEvent', functionToCall);`
-`$(selector).off('eventName', functionToCall);` - remove specific event function
-`$(selector).off('eventName');` - remove all event function
-
+``` javascript
+$(selector).on('eventName otherEvent', functionToCall);
+$(selector).off('eventName', functionToCall);           //remove specific event function
+$(selector).off('eventName');                           //remove all event function
+```
 supply multiple event handlers
 ```javascript
     $(selector).on({
@@ -41,3 +42,6 @@ event.stopImmediatePropagation();
     $(trafficLight).on('green', car.lightTurnedGreen);
     $(trafficLight).trigger('green');
 ```
+
+###Deferred Objects
+* Based on CommonJS promise proposal.
